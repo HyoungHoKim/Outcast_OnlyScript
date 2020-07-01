@@ -100,7 +100,6 @@ public class Pistol_02 : Pistol
                 if (Sign(gunAcceleration.x, (controllerInRightHand ? OpenAcceleration : -OpenAcceleration)) && Mathf.Abs(gunAcceleration.x) > Mathf.Abs(OpenAcceleration) && CurrentAmmo <= 0)
                 {
                     Debug.Log("Open!!");
-                    //Debug.Log($"Gun Acceleration, OpenAcceleration : {gunAcceleration.x}, {OpenAcceleration}, {Mathf.Abs(gunAcceleration.x) > Mathf.Abs(OpenAcceleration)}");
                     //revolvingHolder.OpenForReload(controllerInRightHand);
                 }
                 else if (Sign(gunAcceleration.x, (controllerInRightHand ? closeAcceleration : -closeAcceleration)) && Mathf.Abs(gunAcceleration.x) > Mathf.Abs(closeAcceleration))

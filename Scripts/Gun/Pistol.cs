@@ -18,7 +18,6 @@ public class Pistol : MonoBehaviour
     public float recoilKickBack = 0.1f;                            
     public float recoilRecoveryRate = 0.01f;
 
-
     //public Transform shellSpitPosition;
     public GameObject shell;                            
     public float shellSpitForce = 1.0f;                 

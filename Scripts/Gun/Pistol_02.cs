@@ -23,8 +23,7 @@ public class Pistol_02 : Pistol
     public bool beaming = false;
 
 
-  //  public EnemyController2 enemyCon;
-    
+  //  public EnemyController2 enemyCon;  
     List<Vector3> reflectionPoints = new List<Vector3>();
     List<GameObject> reflectionHitObjects = new List<GameObject>();
     GameObject LastHitObject;
